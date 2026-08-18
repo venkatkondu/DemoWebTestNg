@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class BaseDemoWebPage {
 	
-	private  WebDriver lDriver=null;
+	private static  WebDriver lDriver=null;
 	
 	public BaseDemoWebPage(WebDriver rDriver) {
 		this.lDriver=rDriver;
@@ -37,6 +37,10 @@ public class BaseDemoWebPage {
 	
 	private By byFooterInfoOne=By.className(".footer-poweredby");
 	private By byFooterInfoTwo=By.className(".footer-disclaimer");
+	
+	public static WebDriver getWebDriver() {
+		return lDriver;
+	}
 	
 	
 }

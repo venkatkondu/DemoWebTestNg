@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginRigiPage extends BaseDemoWebPage {
+public class LoginRegiPage extends BaseDemoWebPage {
 
 	private By byEmailInput=By.id("Email");
 	private By byPasswordInput=By.name("Password");
@@ -20,7 +20,7 @@ public class LoginRigiPage extends BaseDemoWebPage {
 	
 	
 	
-	public LoginRigiPage(WebDriver rDriver) {
+	public LoginRegiPage(WebDriver rDriver) {
 		super(rDriver);
 	}
 
