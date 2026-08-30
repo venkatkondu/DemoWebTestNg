@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import utilities.Utility;
+
 public class IndexPage extends BaseDemoWebPage {
 
 	private By byRigisterLink=By.linkText("Register");
@@ -22,5 +24,24 @@ public class IndexPage extends BaseDemoWebPage {
 		super(rDriver);
 		
 	}
-
+	
+	
+	public LoginRegiPage clickOn_LogIn_Link() {
+		Utility.click(lDriver.findElement(byLoginLink));
+		return new LoginRegiPage(lDriver);
+	}
+	 
+	public LoginRegiPage clickOn_Register_Link() {
+		Utility.click(lDriver.findElement(byRigisterLink));
+		return new LoginRegiPage(lDriver);
+	}
+	
+	public void clickOn_Shopping_Cart_Link() {
+		Utility.click(lDriver.findElement(byShoppingCartLink));
+	}
+	public void clickOn_WishList_Link() {
+		Utility.click(lDriver.findElement(byWishListLink));
+	}
+	
+	
 }
