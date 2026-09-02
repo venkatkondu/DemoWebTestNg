@@ -1,275 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="29" passed="25" failed="4" skipped="0">
+<testng-results ignored="0" total="23" passed="19" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-02T19:45:39 IST" name="Surefire suite" finished-at="2026-09-02T19:51:33 IST" duration-ms="354005">
+  <suite started-at="2026-09-02T21:11:07 IST" name="Surefire suite" finished-at="2026-09-02T21:16:06 IST" duration-ms="299077">
     <groups>
     </groups>
-    <test started-at="2026-09-02T19:45:39 IST" name="Surefire test" finished-at="2026-09-02T19:51:33 IST" duration-ms="354005">
+    <test started-at="2026-09-02T21:11:07 IST" name="Surefire test" finished-at="2026-09-02T21:16:06 IST" duration-ms="299077">
       <class name="tests.BaseDemoWebTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.BaseDemoWebTest@f0c8a99]" started-at="2026-09-02T19:45:38 IST" name="beforeSuite" finished-at="2026-09-02T19:45:38 IST" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.BaseDemoWebTest@4de4b452]" started-at="2026-09-02T21:11:07 IST" name="beforeSuite" finished-at="2026-09-02T21:11:07 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.BaseDemoWebTest@f0c8a99]" started-at="2026-09-02T19:45:39 IST" name="beforeTest" finished-at="2026-09-02T19:45:39 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.BaseDemoWebTest@4de4b452]" started-at="2026-09-02T21:11:07 IST" name="beforeTest" finished-at="2026-09-02T21:11:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.BaseDemoWebTest@f0c8a99]" started-at="2026-09-02T19:51:33 IST" name="afterTest" finished-at="2026-09-02T19:51:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.BaseDemoWebTest@4de4b452]" started-at="2026-09-02T21:16:06 IST" name="afterTest" finished-at="2026-09-02T21:16:06 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.BaseDemoWebTest@f0c8a99]" started-at="2026-09-02T19:51:33 IST" name="afterSuite" finished-at="2026-09-02T19:51:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.BaseDemoWebTest@4de4b452]" started-at="2026-09-02T21:16:06 IST" name="afterSuite" finished-at="2026-09-02T21:16:06 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- tests.BaseDemoWebTest -->
       <class name="tests.HomePageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:45:39 IST" name="beforeClass" finished-at="2026-09-02T19:45:39 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:07 IST" name="beforeClass" finished-at="2026-09-02T21:11:07 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:45:39 IST" name="beforeMethod" finished-at="2026-09-02T19:45:45 IST" duration-ms="6805" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:07 IST" name="beforeMethod" finished-at="2026-09-02T21:11:15 IST" duration-ms="8238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="shoppingCart()[pri:1, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:45:45 IST" name="shoppingCart" finished-at="2026-09-02T19:45:45 IST" duration-ms="30" status="PASS">
+        <test-method signature="shoppingCart()[pri:1, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:16 IST" name="shoppingCart" finished-at="2026-09-02T21:11:16 IST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shoppingCart -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:45:45 IST" name="afterMethod" finished-at="2026-09-02T19:45:46 IST" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:16 IST" name="afterMethod" finished-at="2026-09-02T21:11:16 IST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:45:46 IST" name="beforeMethod" finished-at="2026-09-02T19:45:51 IST" duration-ms="5785" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:16 IST" name="beforeMethod" finished-at="2026-09-02T21:11:22 IST" duration-ms="6341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="wishList()[pri:2, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:45:51 IST" name="wishList" finished-at="2026-09-02T19:45:51 IST" duration-ms="0" status="PASS">
+        <test-method signature="wishList()[pri:2, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:22 IST" name="wishList" finished-at="2026-09-02T21:11:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wishList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:45:51 IST" name="afterMethod" finished-at="2026-09-02T19:45:52 IST" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:22 IST" name="afterMethod" finished-at="2026-09-02T21:11:23 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:45:52 IST" name="beforeMethod" finished-at="2026-09-02T19:45:57 IST" duration-ms="5142" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:23 IST" name="beforeMethod" finished-at="2026-09-02T21:11:30 IST" duration-ms="7707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="headerList()[pri:3, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:45:57 IST" name="headerList" finished-at="2026-09-02T19:45:57 IST" duration-ms="3" status="PASS">
+        <test-method signature="headerList()[pri:3, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:30 IST" name="headerList" finished-at="2026-09-02T21:11:30 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:45:57 IST" name="afterMethod" finished-at="2026-09-02T19:45:57 IST" duration-ms="133" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:30 IST" name="afterMethod" finished-at="2026-09-02T21:11:30 IST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:45:57 IST" name="beforeMethod" finished-at="2026-09-02T19:46:01 IST" duration-ms="4083" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:30 IST" name="beforeMethod" finished-at="2026-09-02T21:11:38 IST" duration-ms="7410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="homePage_MenuList()[pri:3, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:46:01 IST" name="homePage_MenuList" finished-at="2026-09-02T19:46:12 IST" duration-ms="11465" status="PASS">
+        <test-method signature="homePage_MenuList()[pri:3, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:38 IST" name="homePage_MenuList" finished-at="2026-09-02T21:11:50 IST" duration-ms="12434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage_MenuList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:46:12 IST" name="afterMethod" finished-at="2026-09-02T19:46:13 IST" duration-ms="783" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:50 IST" name="afterMethod" finished-at="2026-09-02T21:11:51 IST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:46:13 IST" name="beforeMethod" finished-at="2026-09-02T19:46:20 IST" duration-ms="7086" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:51 IST" name="beforeMethod" finished-at="2026-09-02T21:11:56 IST" duration-ms="5700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="categoryList()[pri:4, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:46:20 IST" name="categoryList" finished-at="2026-09-02T19:46:20 IST" duration-ms="4" status="PASS">
+        <test-method signature="categoryList()[pri:4, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:56 IST" name="categoryList" finished-at="2026-09-02T21:11:56 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- categoryList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:46:20 IST" name="afterMethod" finished-at="2026-09-02T19:46:20 IST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:56 IST" name="afterMethod" finished-at="2026-09-02T21:11:57 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:46:20 IST" name="beforeMethod" finished-at="2026-09-02T19:46:26 IST" duration-ms="5160" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:11:57 IST" name="beforeMethod" finished-at="2026-09-02T21:12:03 IST" duration-ms="6937" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="homePage_CategoryList()[pri:4, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:46:26 IST" name="homePage_CategoryList" finished-at="2026-09-02T19:46:37 IST" duration-ms="11227" status="PASS">
+        <test-method signature="homePage_CategoryList()[pri:4, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:12:03 IST" name="homePage_CategoryList" finished-at="2026-09-02T21:12:15 IST" duration-ms="11133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage_CategoryList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:46:37 IST" name="afterMethod" finished-at="2026-09-02T19:46:38 IST" duration-ms="625" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:12:15 IST" name="afterMethod" finished-at="2026-09-02T21:12:15 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:46:38 IST" name="beforeMethod" finished-at="2026-09-02T19:46:42 IST" duration-ms="4926" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:12:15 IST" name="beforeMethod" finished-at="2026-09-02T21:12:20 IST" duration-ms="4824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="homePage_InformationList()[pri:5, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:46:42 IST" name="homePage_InformationList" finished-at="2026-09-02T19:46:52 IST" duration-ms="9974" status="PASS">
+        <test-method signature="homePage_InformationList()[pri:5, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:12:20 IST" name="homePage_InformationList" finished-at="2026-09-02T21:12:30 IST" duration-ms="10164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage_InformationList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:46:52 IST" name="afterMethod" finished-at="2026-09-02T19:46:53 IST" duration-ms="762" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:12:30 IST" name="afterMethod" finished-at="2026-09-02T21:12:31 IST" duration-ms="1110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:46:53 IST" name="beforeMethod" finished-at="2026-09-02T19:46:58 IST" duration-ms="4754" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:12:31 IST" name="beforeMethod" finished-at="2026-09-02T21:12:38 IST" duration-ms="6927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="homePage_MyAccountList()[pri:6, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:46:58 IST" name="homePage_MyAccountList" finished-at="2026-09-02T19:47:07 IST" duration-ms="9363" status="PASS">
+        <test-method signature="homePage_MyAccountList()[pri:6, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:12:38 IST" name="homePage_MyAccountList" finished-at="2026-09-02T21:12:47 IST" duration-ms="8866" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage_MyAccountList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:47:07 IST" name="afterMethod" finished-at="2026-09-02T19:47:08 IST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:12:47 IST" name="afterMethod" finished-at="2026-09-02T21:12:47 IST" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:47:08 IST" name="beforeMethod" finished-at="2026-09-02T19:47:13 IST" duration-ms="5204" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:12:47 IST" name="beforeMethod" finished-at="2026-09-02T21:12:53 IST" duration-ms="5382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="homePage_CustomerServiceList()[pri:7, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:47:13 IST" name="homePage_CustomerServiceList" finished-at="2026-09-02T19:47:23 IST" duration-ms="9903" status="PASS">
+        <test-method signature="homePage_CustomerServiceList()[pri:7, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:12:53 IST" name="homePage_CustomerServiceList" finished-at="2026-09-02T21:13:03 IST" duration-ms="10090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage_CustomerServiceList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:47:23 IST" name="afterMethod" finished-at="2026-09-02T19:47:23 IST" duration-ms="412" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:13:03 IST" name="afterMethod" finished-at="2026-09-02T21:13:05 IST" duration-ms="1812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:47:23 IST" name="beforeMethod" finished-at="2026-09-02T19:47:29 IST" duration-ms="5651" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:13:05 IST" name="beforeMethod" finished-at="2026-09-02T21:13:12 IST" duration-ms="7674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="homePage_FollowUs_List()[pri:8, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:47:29 IST" name="homePage_FollowUs_List" finished-at="2026-09-02T19:47:38 IST" duration-ms="8859" status="PASS">
+        <test-method signature="homePage_FollowUs_List()[pri:8, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:13:12 IST" name="homePage_FollowUs_List" finished-at="2026-09-02T21:13:21 IST" duration-ms="8928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage_FollowUs_List -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:47:38 IST" name="afterMethod" finished-at="2026-09-02T19:47:38 IST" duration-ms="905" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:13:21 IST" name="afterMethod" finished-at="2026-09-02T21:13:23 IST" duration-ms="1824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.HomePageTest@6e9175d8]" started-at="2026-09-02T19:47:38 IST" name="afterClass" finished-at="2026-09-02T19:47:38 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.HomePageTest@3d5c822d]" started-at="2026-09-02T21:13:23 IST" name="afterClass" finished-at="2026-09-02T21:13:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- tests.HomePageTest -->
       <class name="tests.IndexPageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:47:38 IST" name="beforeClass" finished-at="2026-09-02T19:47:38 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:13:23 IST" name="beforeClass" finished-at="2026-09-02T21:13:23 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:47:38 IST" name="beforeMethod" finished-at="2026-09-02T19:47:44 IST" duration-ms="5298" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:13:23 IST" name="beforeMethod" finished-at="2026-09-02T21:13:29 IST" duration-ms="6003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="indexPage_URL()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:47:44 IST" name="indexPage_URL" finished-at="2026-09-02T19:47:44 IST" duration-ms="20" status="PASS">
+        <test-method signature="indexPage_URL()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:13:29 IST" name="indexPage_URL" finished-at="2026-09-02T21:13:29 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indexPage_URL -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:47:44 IST" name="afterMethod" finished-at="2026-09-02T19:47:44 IST" duration-ms="264" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:13:29 IST" name="afterMethod" finished-at="2026-09-02T21:13:29 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:47:44 IST" name="beforeMethod" finished-at="2026-09-02T19:47:52 IST" duration-ms="7990" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:13:29 IST" name="beforeMethod" finished-at="2026-09-02T21:13:37 IST" duration-ms="7428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="indexPage_Title()[pri:1, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:47:52 IST" name="indexPage_Title" finished-at="2026-09-02T19:47:52 IST" duration-ms="14" status="PASS">
+        <test-method signature="indexPage_Title()[pri:1, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:13:37 IST" name="indexPage_Title" finished-at="2026-09-02T21:13:37 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indexPage_Title -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:47:52 IST" name="afterMethod" finished-at="2026-09-02T19:47:52 IST" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:13:37 IST" name="afterMethod" finished-at="2026-09-02T21:13:37 IST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:47:52 IST" name="beforeMethod" finished-at="2026-09-02T19:47:58 IST" duration-ms="5960" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:13:37 IST" name="beforeMethod" finished-at="2026-09-02T21:13:43 IST" duration-ms="5853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="indexPage_MenuList()[pri:3, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:47:58 IST" name="indexPage_MenuList" finished-at="2026-09-02T19:48:06 IST" duration-ms="8162" status="PASS">
+        <test-method signature="indexPage_MenuList()[pri:3, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:13:43 IST" name="indexPage_MenuList" finished-at="2026-09-02T21:13:51 IST" duration-ms="8112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indexPage_MenuList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:48:06 IST" name="afterMethod" finished-at="2026-09-02T19:48:07 IST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:13:51 IST" name="afterMethod" finished-at="2026-09-02T21:13:52 IST" duration-ms="1024" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:48:07 IST" name="beforeMethod" finished-at="2026-09-02T19:48:12 IST" duration-ms="5433" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:13:52 IST" name="beforeMethod" finished-at="2026-09-02T21:13:57 IST" duration-ms="5028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="indexPage_CategoryList()[pri:4, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:48:12 IST" name="indexPage_CategoryList" finished-at="2026-09-02T19:48:20 IST" duration-ms="8098" status="PASS">
+        <test-method signature="indexPage_CategoryList()[pri:4, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:13:57 IST" name="indexPage_CategoryList" finished-at="2026-09-02T21:14:05 IST" duration-ms="8133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indexPage_CategoryList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:48:20 IST" name="afterMethod" finished-at="2026-09-02T19:48:20 IST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:05 IST" name="afterMethod" finished-at="2026-09-02T21:14:06 IST" duration-ms="850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:48:20 IST" name="beforeMethod" finished-at="2026-09-02T19:48:28 IST" duration-ms="7421" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:06 IST" name="beforeMethod" finished-at="2026-09-02T21:14:12 IST" duration-ms="5537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="indexPage_InformationList()[pri:5, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:48:28 IST" name="indexPage_InformationList" finished-at="2026-09-02T19:48:35 IST" duration-ms="6974" status="PASS">
+        <test-method signature="indexPage_InformationList()[pri:5, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:12 IST" name="indexPage_InformationList" finished-at="2026-09-02T21:14:19 IST" duration-ms="6993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indexPage_InformationList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:48:35 IST" name="afterMethod" finished-at="2026-09-02T19:48:36 IST" duration-ms="945" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:19 IST" name="afterMethod" finished-at="2026-09-02T21:14:19 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:48:36 IST" name="beforeMethod" finished-at="2026-09-02T19:48:42 IST" duration-ms="6080" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:19 IST" name="beforeMethod" finished-at="2026-09-02T21:14:26 IST" duration-ms="6880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="indexPage_MyAccountList()[pri:6, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:48:42 IST" name="indexPage_MyAccountList" finished-at="2026-09-02T19:48:48 IST" duration-ms="5853" status="PASS">
+        <test-method signature="indexPage_MyAccountList()[pri:6, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:26 IST" name="indexPage_MyAccountList" finished-at="2026-09-02T21:14:32 IST" duration-ms="5829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indexPage_MyAccountList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:48:48 IST" name="afterMethod" finished-at="2026-09-02T19:48:48 IST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:32 IST" name="afterMethod" finished-at="2026-09-02T21:14:32 IST" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:48:48 IST" name="beforeMethod" finished-at="2026-09-02T19:48:56 IST" duration-ms="7675" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:32 IST" name="beforeMethod" finished-at="2026-09-02T21:14:37 IST" duration-ms="4821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="indexPage_CustomerServiceList()[pri:7, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:48:56 IST" name="indexPage_CustomerServiceList" finished-at="2026-09-02T19:49:03 IST" duration-ms="7005" status="PASS">
+        <test-method signature="indexPage_CustomerServiceList()[pri:7, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:37 IST" name="indexPage_CustomerServiceList" finished-at="2026-09-02T21:14:44 IST" duration-ms="7048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indexPage_CustomerServiceList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:49:03 IST" name="afterMethod" finished-at="2026-09-02T19:49:04 IST" duration-ms="1078" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:44 IST" name="afterMethod" finished-at="2026-09-02T21:14:44 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:49:04 IST" name="beforeMethod" finished-at="2026-09-02T19:49:08 IST" duration-ms="4653" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:44 IST" name="beforeMethod" finished-at="2026-09-02T21:14:48 IST" duration-ms="3927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="indexPage_FollowUs_List()[pri:8, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:49:08 IST" name="indexPage_FollowUs_List" finished-at="2026-09-02T19:49:14 IST" duration-ms="5849" status="PASS">
+        <test-method signature="indexPage_FollowUs_List()[pri:8, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:48 IST" name="indexPage_FollowUs_List" finished-at="2026-09-02T21:14:54 IST" duration-ms="5862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- indexPage_FollowUs_List -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:49:14 IST" name="afterMethod" finished-at="2026-09-02T19:49:15 IST" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:54 IST" name="afterMethod" finished-at="2026-09-02T21:14:54 IST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.IndexPageTest@7d0b7e3c]" started-at="2026-09-02T19:49:15 IST" name="afterClass" finished-at="2026-09-02T19:49:15 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.IndexPageTest@6f46426d]" started-at="2026-09-02T21:14:54 IST" name="afterClass" finished-at="2026-09-02T21:14:54 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- tests.IndexPageTest -->
       <class name="tests.LoginPageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:49:15 IST" name="beforeClass" finished-at="2026-09-02T19:49:15 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:14:54 IST" name="beforeClass" finished-at="2026-09-02T21:14:54 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:49:15 IST" name="beforeMethod" finished-at="2026-09-02T19:49:20 IST" duration-ms="5380" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:14:54 IST" name="beforeMethod" finished-at="2026-09-02T21:15:02 IST" duration-ms="7700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="failed_LogIn_Test(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:49:20 IST" name="failed_LogIn_Test" data-provider="Failed Credentials" finished-at="2026-09-02T19:49:26 IST" duration-ms="6240" status="FAIL">
+        <test-method signature="failed_LogIn_Test(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:15:02 IST" name="failed_LogIn_Test" data-provider="Failed Credentials" finished-at="2026-09-02T21:15:11 IST" duration-ms="9239" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -288,22 +288,22 @@
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20210802cb7d23120db75fc0f40ae38a, findElement {using=xpath, value=//div[@class='message-error']//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57649}, goog:processID: 17084, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57649/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 20210802cb7d23120db75fc0f40ae38a]]>
+Command: [5194f1f3588339708af6ae142e32fb98, findElement {value=//div[@class='message-error']//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52995}, goog:processID: 1920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52995/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5194f1f3588339708af6ae142e32fb98]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='message-error']//span"}
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20210802cb7d23120db75fc0f40ae38a, findElement {using=xpath, value=//div[@class='message-error']//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57649}, goog:processID: 17084, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57649/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 20210802cb7d23120db75fc0f40ae38a
+Command: [5194f1f3588339708af6ae142e32fb98, findElement {value=//div[@class='message-error']//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52995}, goog:processID: 1920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52995/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5194f1f3588339708af6ae142e32fb98
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -316,9 +316,9 @@ at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:6
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -327,7 +327,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 at org.testng.TestRunner.privateRun(TestRunner.java:744)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -354,15 +354,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failed_LogIn_Test -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:49:26 IST" name="afterMethod" finished-at="2026-09-02T19:49:26 IST" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:15:11 IST" name="afterMethod" finished-at="2026-09-02T21:15:12 IST" duration-ms="776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:49:26 IST" name="beforeMethod" finished-at="2026-09-02T19:49:34 IST" duration-ms="7515" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:15:12 IST" name="beforeMethod" finished-at="2026-09-02T21:15:17 IST" duration-ms="5516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="failed_LogIn_Test(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:49:34 IST" name="failed_LogIn_Test" data-provider="Failed Credentials" finished-at="2026-09-02T19:49:40 IST" duration-ms="6137" status="FAIL">
+        <test-method signature="failed_LogIn_Test(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:15:17 IST" name="failed_LogIn_Test" data-provider="Failed Credentials" finished-at="2026-09-02T21:15:26 IST" duration-ms="9202" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -381,22 +381,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [12984739873b215d198de8a3b28599b5, findElement {using=xpath, value=//div[@class='message-error']//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60838}, goog:processID: 1604, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 12984739873b215d198de8a3b28599b5]]>
+Command: [35a0809abd7c3a3bd07cfbf707d93313, findElement {value=//div[@class='message-error']//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55773}, goog:processID: 25732, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55773/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35a0809abd7c3a3bd07cfbf707d93313]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='message-error']//span"}
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [12984739873b215d198de8a3b28599b5, findElement {using=xpath, value=//div[@class='message-error']//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60838}, goog:processID: 1604, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 12984739873b215d198de8a3b28599b5
+Command: [35a0809abd7c3a3bd07cfbf707d93313, findElement {value=//div[@class='message-error']//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55773}, goog:processID: 25732, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55773/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35a0809abd7c3a3bd07cfbf707d93313
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -409,9 +409,9 @@ at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:6
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -420,7 +420,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 at org.testng.TestRunner.privateRun(TestRunner.java:744)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -447,15 +447,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failed_LogIn_Test -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:49:40 IST" name="afterMethod" finished-at="2026-09-02T19:49:40 IST" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:15:26 IST" name="afterMethod" finished-at="2026-09-02T21:15:27 IST" duration-ms="868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:49:40 IST" name="beforeMethod" finished-at="2026-09-02T19:49:47 IST" duration-ms="6742" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:15:27 IST" name="beforeMethod" finished-at="2026-09-02T21:15:31 IST" duration-ms="3378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="failed_LogIn_Test(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:49:47 IST" name="failed_LogIn_Test" data-provider="Failed Credentials" finished-at="2026-09-02T19:49:53 IST" duration-ms="6178" status="FAIL">
+        <test-method signature="failed_LogIn_Test(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:15:31 IST" name="failed_LogIn_Test" data-provider="Failed Credentials" finished-at="2026-09-02T21:15:40 IST" duration-ms="9060" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -474,22 +474,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c294f0735f237226e9750073101aef23, findElement {using=xpath, value=//div[@class='message-error']//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60489}, goog:processID: 26232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60489/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c294f0735f237226e9750073101aef23]]>
+Command: [5805fb78a259bfc606044d77488ff9df, findElement {value=//div[@class='message-error']//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50228}, goog:processID: 3756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50228/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5805fb78a259bfc606044d77488ff9df]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='message-error']//span"}
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c294f0735f237226e9750073101aef23, findElement {using=xpath, value=//div[@class='message-error']//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60489}, goog:processID: 26232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60489/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c294f0735f237226e9750073101aef23
+Command: [5805fb78a259bfc606044d77488ff9df, findElement {value=//div[@class='message-error']//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50228}, goog:processID: 3756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50228/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5805fb78a259bfc606044d77488ff9df
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -502,9 +502,9 @@ at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:6
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -513,7 +513,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 at org.testng.TestRunner.privateRun(TestRunner.java:744)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -540,15 +540,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failed_LogIn_Test -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:49:53 IST" name="afterMethod" finished-at="2026-09-02T19:49:54 IST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:15:40 IST" name="afterMethod" finished-at="2026-09-02T21:15:40 IST" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:49:54 IST" name="beforeMethod" finished-at="2026-09-02T19:49:59 IST" duration-ms="5134" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:15:40 IST" name="beforeMethod" finished-at="2026-09-02T21:15:48 IST" duration-ms="8107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="failed_LogIn_Test(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:49:59 IST" name="failed_LogIn_Test" data-provider="Failed Credentials" finished-at="2026-09-02T19:50:05 IST" duration-ms="6085" status="FAIL">
+        <test-method signature="failed_LogIn_Test(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:15:48 IST" name="failed_LogIn_Test" data-provider="Failed Credentials" finished-at="2026-09-02T21:15:57 IST" duration-ms="8974" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -567,22 +567,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b4f22d53686cb110eb47e49d1f2e0fca, findElement {using=xpath, value=//div[@class='message-error']//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55316}, goog:processID: 6116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55316/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b4f22d53686cb110eb47e49d1f2e0fca]]>
+Command: [3f00ef570c7d6bd14480f9a801facc86, findElement {value=//div[@class='message-error']//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54983}, goog:processID: 24440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54983/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f00ef570c7d6bd14480f9a801facc86]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='message-error']//span"}
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b4f22d53686cb110eb47e49d1f2e0fca, findElement {using=xpath, value=//div[@class='message-error']//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55316}, goog:processID: 6116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55316/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b4f22d53686cb110eb47e49d1f2e0fca
+Command: [3f00ef570c7d6bd14480f9a801facc86, findElement {value=//div[@class='message-error']//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54983}, goog:processID: 24440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54983/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f00ef570c7d6bd14480f9a801facc86
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -595,9 +595,9 @@ at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:6
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -606,7 +606,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 at org.testng.TestRunner.privateRun(TestRunner.java:744)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -633,95 +633,23 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failed_LogIn_Test -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:05 IST" name="afterMethod" finished-at="2026-09-02T19:50:05 IST" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:15:57 IST" name="afterMethod" finished-at="2026-09-02T21:15:57 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:05 IST" name="beforeMethod" finished-at="2026-09-02T19:50:10 IST" duration-ms="4896" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:15:57 IST" name="beforeMethod" finished-at="2026-09-02T21:16:03 IST" duration-ms="5488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="success_Login_Test()[pri:2, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:10 IST" name="success_Login_Test" finished-at="2026-09-02T19:50:13 IST" duration-ms="3435" status="PASS">
+        <test-method signature="success_Login_Test()[pri:2, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:16:03 IST" name="success_Login_Test" finished-at="2026-09-02T21:16:06 IST" duration-ms="3026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- success_Login_Test -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:13 IST" name="afterMethod" finished-at="2026-09-02T19:50:14 IST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:16:06 IST" name="afterMethod" finished-at="2026-09-02T21:16:06 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:14 IST" name="beforeMethod" finished-at="2026-09-02T19:50:18 IST" duration-ms="3976" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="loginPage_MenuList()[pri:3, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:18 IST" name="loginPage_MenuList" finished-at="2026-09-02T19:50:27 IST" duration-ms="8884" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_MenuList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:27 IST" name="afterMethod" finished-at="2026-09-02T19:50:27 IST" duration-ms="230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:27 IST" name="beforeMethod" finished-at="2026-09-02T19:50:32 IST" duration-ms="5250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="loginPage_CategoryList()[pri:4, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:32 IST" name="loginPage_CategoryList" finished-at="2026-09-02T19:50:41 IST" duration-ms="8942" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_CategoryList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:41 IST" name="afterMethod" finished-at="2026-09-02T19:50:42 IST" duration-ms="1006" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:42 IST" name="beforeMethod" finished-at="2026-09-02T19:50:47 IST" duration-ms="4830" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="loginPage_InformationList()[pri:5, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:47 IST" name="loginPage_InformationList" finished-at="2026-09-02T19:50:55 IST" duration-ms="7819" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_InformationList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:55 IST" name="afterMethod" finished-at="2026-09-02T19:50:55 IST" duration-ms="276" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:55 IST" name="beforeMethod" finished-at="2026-09-02T19:50:59 IST" duration-ms="3909" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="loginPage_MyAccountList()[pri:6, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:50:59 IST" name="loginPage_MyAccountList" finished-at="2026-09-02T19:51:05 IST" duration-ms="6478" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_MyAccountList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:51:05 IST" name="afterMethod" finished-at="2026-09-02T19:51:06 IST" duration-ms="271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:51:06 IST" name="beforeMethod" finished-at="2026-09-02T19:51:12 IST" duration-ms="6501" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="loginPage_CustomerServiceList()[pri:7, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:51:12 IST" name="loginPage_CustomerServiceList" finished-at="2026-09-02T19:51:20 IST" duration-ms="7707" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_CustomerServiceList -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:51:20 IST" name="afterMethod" finished-at="2026-09-02T19:51:20 IST" duration-ms="276" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:51:20 IST" name="beforeMethod" finished-at="2026-09-02T19:51:26 IST" duration-ms="5594" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="loginPage_FollowUs_List()[pri:8, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:51:26 IST" name="loginPage_FollowUs_List" finished-at="2026-09-02T19:51:32 IST" duration-ms="6530" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPage_FollowUs_List -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:51:32 IST" name="afterMethod" finished-at="2026-09-02T19:51:33 IST" duration-ms="222" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.LoginPageTest@15bb5034]" started-at="2026-09-02T19:51:33 IST" name="afterClass" finished-at="2026-09-02T19:51:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.LoginPageTest@73700b80]" started-at="2026-09-02T21:16:06 IST" name="afterClass" finished-at="2026-09-02T21:16:06 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

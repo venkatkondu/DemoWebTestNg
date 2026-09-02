@@ -1,0 +1,5 @@
+pages\BaseDemoWebPage.class
+pages\IndexPage.class
+utilities\Utility.class
+pages\HomePage.class
+pages\LoginRegiPage.class

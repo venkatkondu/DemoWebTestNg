@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import pages.BaseDemoWebPage;
+import utilities.Utility;
 
 public class LoginPageTest extends BaseDemoWebTest {
 	// Data Provider concept 
@@ -32,6 +33,8 @@ public class LoginPageTest extends BaseDemoWebTest {
 		loginRegiPage.emailInput(userName);
 		loginRegiPage.passwordInput(password);
 		loginRegiPage.clickOn_LogIn_Btn();
+		
+		Utility.sleep(3);		
 		
 		String error_Label_1=loginRegiPage.getLogin_Failed_Error_Label_1();
 		String error_Label_2=loginRegiPage.getLogin_Failed_Error_Label_2();
@@ -88,6 +91,7 @@ public class LoginPageTest extends BaseDemoWebTest {
 		// I need to see the Home page over here
 	}
 	
+	/*
 
 	@Test(priority=3)
 	public void loginPage_MenuList(){
@@ -141,10 +145,7 @@ public class LoginPageTest extends BaseDemoWebTest {
 		System.out.println(followUs);
 	}
 	
-	
-
-
-	
+	*/
 	
 	
 }

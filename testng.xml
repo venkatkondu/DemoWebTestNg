@@ -3,13 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-     
+ 
      <class name="tests.HomePageTest"/>
-    <!-- 
-      <class name="tests.LoginPageTest"/>
-       <class name="tests.IndexPageTest"/>
-     
- -->
+     <class name="tests.LoginPageTest"/>
+     <class name="tests.IndexPageTest"/>
+ 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

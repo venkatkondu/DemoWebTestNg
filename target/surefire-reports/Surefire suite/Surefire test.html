@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>25/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>19/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 02 19:45:39 IST 2026</td>
+<td>Started on:</td><td>Wed Sep 02 21:11:07 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>354 seconds (354005 ms)</td>
+<tr><td>Total time:</td><td>299 seconds (299077 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,98 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.LoginPageTest.failed_LogIn_Test()'><b>failed_LogIn_Test</b><br>Test class: tests.LoginPageTest<br>Parameters: Test@Three, Password_3</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c294f0735f237226e9750073101aef23, findElement {using=xpath, value=//div[@class=&apos;message-error&apos;]//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60489}, goog:processID: 26232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60489/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c294f0735f237226e9750073101aef23
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:36)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1515016092", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1515016092'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c294f0735f237226e9750073101aef23, findElement {using=xpath, value=//div[@class=&apos;message-error&apos;]//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60489}, goog:processID: 26232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60489/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c294f0735f237226e9750073101aef23
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:36)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>6</td>
-<td>tests.LoginPageTest@15bb5034</td></tr>
-<tr>
 <td title='tests.LoginPageTest.failed_LogIn_Test()'><b>failed_LogIn_Test</b><br>Test class: tests.LoginPageTest<br>Parameters: Test@Two, Password_2</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [12984739873b215d198de8a3b28599b5, findElement {using=xpath, value=//div[@class=&apos;message-error&apos;]//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60838}, goog:processID: 1604, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 12984739873b215d198de8a3b28599b5
+Command: [35a0809abd7c3a3bd07cfbf707d93313, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55773}, goog:processID: 25732, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55773/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35a0809abd7c3a3bd07cfbf707d93313
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -180,18 +98,18 @@ Session ID: 12984739873b215d198de8a3b28599b5
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:36)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1684285431", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1684285431'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1308491389", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1308491389'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [12984739873b215d198de8a3b28599b5, findElement {using=xpath, value=//div[@class=&apos;message-error&apos;]//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60838}, goog:processID: 1604, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 12984739873b215d198de8a3b28599b5
+Command: [35a0809abd7c3a3bd07cfbf707d93313, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55773}, goog:processID: 25732, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55773/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35a0809abd7c3a3bd07cfbf707d93313
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -204,9 +122,9 @@ Session ID: 12984739873b215d198de8a3b28599b5
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:36)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -215,7 +133,7 @@ Session ID: 12984739873b215d198de8a3b28599b5
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -237,19 +155,19 @@ Session ID: 12984739873b215d198de8a3b28599b5
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>6</td>
-<td>tests.LoginPageTest@15bb5034</td></tr>
+<td>9</td>
+<td>tests.LoginPageTest@73700b80</td></tr>
 <tr>
 <td title='tests.LoginPageTest.failed_LogIn_Test()'><b>failed_LogIn_Test</b><br>Test class: tests.LoginPageTest<br>Parameters: Test@Four, Password_4</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b4f22d53686cb110eb47e49d1f2e0fca, findElement {using=xpath, value=//div[@class=&apos;message-error&apos;]//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55316}, goog:processID: 6116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55316/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b4f22d53686cb110eb47e49d1f2e0fca
+Command: [3f00ef570c7d6bd14480f9a801facc86, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54983}, goog:processID: 24440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54983/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f00ef570c7d6bd14480f9a801facc86
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -262,18 +180,18 @@ Session ID: b4f22d53686cb110eb47e49d1f2e0fca
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:36)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace63015234", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace63015234'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace958817283", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace958817283'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b4f22d53686cb110eb47e49d1f2e0fca, findElement {using=xpath, value=//div[@class=&apos;message-error&apos;]//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55316}, goog:processID: 6116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55316/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b4f22d53686cb110eb47e49d1f2e0fca
+Command: [3f00ef570c7d6bd14480f9a801facc86, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54983}, goog:processID: 24440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54983/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f00ef570c7d6bd14480f9a801facc86
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -286,9 +204,9 @@ Session ID: b4f22d53686cb110eb47e49d1f2e0fca
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:36)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -297,7 +215,7 @@ Session ID: b4f22d53686cb110eb47e49d1f2e0fca
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -319,19 +237,19 @@ Session ID: b4f22d53686cb110eb47e49d1f2e0fca
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>6</td>
-<td>tests.LoginPageTest@15bb5034</td></tr>
+<td>8</td>
+<td>tests.LoginPageTest@73700b80</td></tr>
 <tr>
 <td title='tests.LoginPageTest.failed_LogIn_Test()'><b>failed_LogIn_Test</b><br>Test class: tests.LoginPageTest<br>Parameters: Test@One, Password_1</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20210802cb7d23120db75fc0f40ae38a, findElement {using=xpath, value=//div[@class=&apos;message-error&apos;]//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57649}, goog:processID: 17084, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57649/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 20210802cb7d23120db75fc0f40ae38a
+Command: [5194f1f3588339708af6ae142e32fb98, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52995}, goog:processID: 1920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52995/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5194f1f3588339708af6ae142e32fb98
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -344,18 +262,18 @@ Session ID: 20210802cb7d23120db75fc0f40ae38a
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:36)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace150835665", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace150835665'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1113783787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1113783787'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
   (Session info: chrome=151.0.7922.175)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20210802cb7d23120db75fc0f40ae38a, findElement {using=xpath, value=//div[@class=&apos;message-error&apos;]//span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57649}, goog:processID: 17084, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57649/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 20210802cb7d23120db75fc0f40ae38a
+Command: [5194f1f3588339708af6ae142e32fb98, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52995}, goog:processID: 1920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52995/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5194f1f3588339708af6ae142e32fb98
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -368,9 +286,9 @@ Session ID: 20210802cb7d23120db75fc0f40ae38a
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
 	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:36)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -379,7 +297,7 @@ Session ID: 20210802cb7d23120db75fc0f40ae38a
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -401,8 +319,90 @@ Session ID: 20210802cb7d23120db75fc0f40ae38a
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>6</td>
-<td>tests.LoginPageTest@15bb5034</td></tr>
+<td>9</td>
+<td>tests.LoginPageTest@73700b80</td></tr>
+<tr>
+<td title='tests.LoginPageTest.failed_LogIn_Test()'><b>failed_LogIn_Test</b><br>Test class: tests.LoginPageTest<br>Parameters: Test@Three, Password_3</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
+  (Session info: chrome=151.0.7922.175)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5805fb78a259bfc606044d77488ff9df, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50228}, goog:processID: 3756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50228/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5805fb78a259bfc606044d77488ff9df
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace424743902", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace424743902'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
+  (Session info: chrome=151.0.7922.175)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5805fb78a259bfc606044d77488ff9df, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50228}, goog:processID: 3756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50228/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5805fb78a259bfc606044d77488ff9df
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>9</td>
+<td>tests.LoginPageTest@73700b80</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -413,130 +413,100 @@ Session ID: 20210802cb7d23120db75fc0f40ae38a
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.HomePageTest.homePage_CustomerServiceList()'><b>homePage_CustomerServiceList</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>9</td>
-<td>tests.HomePageTest@6e9175d8</td></tr>
-<tr>
-<td title='tests.LoginPageTest.success_Login_Test()'><b>success_Login_Test</b><br>Test class: tests.LoginPageTest</td>
-<td></td>
-<td>3</td>
-<td>tests.LoginPageTest@15bb5034</td></tr>
-<tr>
-<td title='tests.HomePageTest.homePage_MenuList()'><b>homePage_MenuList</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>11</td>
-<td>tests.HomePageTest@6e9175d8</td></tr>
-<tr>
 <td title='tests.HomePageTest.homePage_InformationList()'><b>homePage_InformationList</b><br>Test class: tests.HomePageTest</td>
 <td></td>
-<td>9</td>
-<td>tests.HomePageTest@6e9175d8</td></tr>
+<td>10</td>
+<td>tests.HomePageTest@3d5c822d</td></tr>
 <tr>
 <td title='tests.IndexPageTest.indexPage_MenuList()'><b>indexPage_MenuList</b><br>Test class: tests.IndexPageTest</td>
 <td></td>
 <td>8</td>
-<td>tests.IndexPageTest@7d0b7e3c</td></tr>
-<tr>
-<td title='tests.LoginPageTest.loginPage_MyAccountList()'><b>loginPage_MyAccountList</b><br>Test class: tests.LoginPageTest</td>
-<td></td>
-<td>6</td>
-<td>tests.LoginPageTest@15bb5034</td></tr>
-<tr>
-<td title='tests.LoginPageTest.loginPage_InformationList()'><b>loginPage_InformationList</b><br>Test class: tests.LoginPageTest</td>
-<td></td>
-<td>7</td>
-<td>tests.LoginPageTest@15bb5034</td></tr>
-<tr>
-<td title='tests.LoginPageTest.loginPage_CategoryList()'><b>loginPage_CategoryList</b><br>Test class: tests.LoginPageTest</td>
-<td></td>
-<td>8</td>
-<td>tests.LoginPageTest@15bb5034</td></tr>
-<tr>
-<td title='tests.HomePageTest.wishList()'><b>wishList</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.HomePageTest@6e9175d8</td></tr>
-<tr>
-<td title='tests.LoginPageTest.loginPage_CustomerServiceList()'><b>loginPage_CustomerServiceList</b><br>Test class: tests.LoginPageTest</td>
-<td></td>
-<td>7</td>
-<td>tests.LoginPageTest@15bb5034</td></tr>
-<tr>
-<td title='tests.HomePageTest.homePage_MyAccountList()'><b>homePage_MyAccountList</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>9</td>
-<td>tests.HomePageTest@6e9175d8</td></tr>
-<tr>
-<td title='tests.LoginPageTest.loginPage_MenuList()'><b>loginPage_MenuList</b><br>Test class: tests.LoginPageTest</td>
-<td></td>
-<td>8</td>
-<td>tests.LoginPageTest@15bb5034</td></tr>
-<tr>
-<td title='tests.HomePageTest.homePage_CategoryList()'><b>homePage_CategoryList</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>11</td>
-<td>tests.HomePageTest@6e9175d8</td></tr>
-<tr>
-<td title='tests.HomePageTest.homePage_FollowUs_List()'><b>homePage_FollowUs_List</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>8</td>
-<td>tests.HomePageTest@6e9175d8</td></tr>
+<td>tests.IndexPageTest@6f46426d</td></tr>
 <tr>
 <td title='tests.IndexPageTest.indexPage_CategoryList()'><b>indexPage_CategoryList</b><br>Test class: tests.IndexPageTest</td>
 <td></td>
 <td>8</td>
-<td>tests.IndexPageTest@7d0b7e3c</td></tr>
+<td>tests.IndexPageTest@6f46426d</td></tr>
 <tr>
-<td title='tests.IndexPageTest.indexPage_URL()'><b>indexPage_URL</b><br>Test class: tests.IndexPageTest</td>
+<td title='tests.HomePageTest.wishList()'><b>wishList</b><br>Test class: tests.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>tests.IndexPageTest@7d0b7e3c</td></tr>
-<tr>
-<td title='tests.IndexPageTest.indexPage_CustomerServiceList()'><b>indexPage_CustomerServiceList</b><br>Test class: tests.IndexPageTest</td>
-<td></td>
-<td>7</td>
-<td>tests.IndexPageTest@7d0b7e3c</td></tr>
-<tr>
-<td title='tests.IndexPageTest.indexPage_Title()'><b>indexPage_Title</b><br>Test class: tests.IndexPageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.IndexPageTest@7d0b7e3c</td></tr>
-<tr>
-<td title='tests.HomePageTest.categoryList()'><b>categoryList</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.HomePageTest@6e9175d8</td></tr>
+<td>tests.HomePageTest@3d5c822d</td></tr>
 <tr>
 <td title='tests.IndexPageTest.indexPage_FollowUs_List()'><b>indexPage_FollowUs_List</b><br>Test class: tests.IndexPageTest</td>
 <td></td>
 <td>5</td>
-<td>tests.IndexPageTest@7d0b7e3c</td></tr>
+<td>tests.IndexPageTest@6f46426d</td></tr>
 <tr>
-<td title='tests.HomePageTest.shoppingCart()'><b>shoppingCart</b><br>Test class: tests.HomePageTest</td>
+<td title='tests.HomePageTest.homePage_MyAccountList()'><b>homePage_MyAccountList</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>8</td>
+<td>tests.HomePageTest@3d5c822d</td></tr>
+<tr>
+<td title='tests.LoginPageTest.success_Login_Test()'><b>success_Login_Test</b><br>Test class: tests.LoginPageTest</td>
+<td></td>
+<td>3</td>
+<td>tests.LoginPageTest@73700b80</td></tr>
+<tr>
+<td title='tests.IndexPageTest.indexPage_CustomerServiceList()'><b>indexPage_CustomerServiceList</b><br>Test class: tests.IndexPageTest</td>
+<td></td>
+<td>7</td>
+<td>tests.IndexPageTest@6f46426d</td></tr>
+<tr>
+<td title='tests.IndexPageTest.indexPage_Title()'><b>indexPage_Title</b><br>Test class: tests.IndexPageTest</td>
 <td></td>
 <td>0</td>
-<td>tests.HomePageTest@6e9175d8</td></tr>
-<tr>
-<td title='tests.IndexPageTest.indexPage_InformationList()'><b>indexPage_InformationList</b><br>Test class: tests.IndexPageTest</td>
-<td></td>
-<td>6</td>
-<td>tests.IndexPageTest@7d0b7e3c</td></tr>
+<td>tests.IndexPageTest@6f46426d</td></tr>
 <tr>
 <td title='tests.HomePageTest.headerList()'><b>headerList</b><br>Test class: tests.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>tests.HomePageTest@6e9175d8</td></tr>
+<td>tests.HomePageTest@3d5c822d</td></tr>
+<tr>
+<td title='tests.HomePageTest.shoppingCart()'><b>shoppingCart</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@3d5c822d</td></tr>
+<tr>
+<td title='tests.IndexPageTest.indexPage_InformationList()'><b>indexPage_InformationList</b><br>Test class: tests.IndexPageTest</td>
+<td></td>
+<td>6</td>
+<td>tests.IndexPageTest@6f46426d</td></tr>
 <tr>
 <td title='tests.IndexPageTest.indexPage_MyAccountList()'><b>indexPage_MyAccountList</b><br>Test class: tests.IndexPageTest</td>
 <td></td>
 <td>5</td>
-<td>tests.IndexPageTest@7d0b7e3c</td></tr>
+<td>tests.IndexPageTest@6f46426d</td></tr>
 <tr>
-<td title='tests.LoginPageTest.loginPage_FollowUs_List()'><b>loginPage_FollowUs_List</b><br>Test class: tests.LoginPageTest</td>
+<td title='tests.HomePageTest.homePage_MenuList()'><b>homePage_MenuList</b><br>Test class: tests.HomePageTest</td>
 <td></td>
-<td>6</td>
-<td>tests.LoginPageTest@15bb5034</td></tr>
+<td>12</td>
+<td>tests.HomePageTest@3d5c822d</td></tr>
+<tr>
+<td title='tests.HomePageTest.homePage_CustomerServiceList()'><b>homePage_CustomerServiceList</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>10</td>
+<td>tests.HomePageTest@3d5c822d</td></tr>
+<tr>
+<td title='tests.HomePageTest.homePage_FollowUs_List()'><b>homePage_FollowUs_List</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>8</td>
+<td>tests.HomePageTest@3d5c822d</td></tr>
+<tr>
+<td title='tests.HomePageTest.categoryList()'><b>categoryList</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@3d5c822d</td></tr>
+<tr>
+<td title='tests.IndexPageTest.indexPage_URL()'><b>indexPage_URL</b><br>Test class: tests.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.IndexPageTest@6f46426d</td></tr>
+<tr>
+<td title='tests.HomePageTest.homePage_CategoryList()'><b>homePage_CategoryList</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>11</td>
+<td>tests.HomePageTest@3d5c822d</td></tr>
 </table><p>
 </body>
 </html>
