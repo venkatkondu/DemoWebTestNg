@@ -3,19 +3,19 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.IndexPageTest">
+      <class name="tests.LoginPageTest">
         <methods>
           <include name="afterMethod"/>
-          <include name="indexPage_CategoryList"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
           <include name="afterClass"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
           <include name="beforeSuite"/>
+          <include name="failed_LogIn_Test" invocation-numbers="0 1 2 3"/>
           <include name="afterSuite"/>
         </methods>
-      </class> <!-- tests.IndexPageTest -->
+      </class> <!-- tests.LoginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,10 +1,13 @@
 package utilities;
 
+import java.io.File;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
@@ -48,6 +51,25 @@ public class Utility {
 				break;
 			}
 		}
+	}
+	
+	public static void takeScreenshotFile(String screenshotName) {
+		TakesScreenshot takesScreenshot=(TakesScreenshot)BaseDemoWebPage.getWebDriver();
+		File source=takesScreenshot.getScreenshotAs(OutputType.BASE64.FILE);
+		
+		File destFile=new File("./Screenshot"+screenshotName); // This one need to look into it later
+//		FileHandler
+	//	FileUtils.copy(source,destFile);  //copy(source,destFile);
+		
+	}
+	
+	
+	// To Attach Screenshot to the Extent HTML reports directly
+	public static String takeScreenshotBase64(String scrName) {
+		
+		TakesScreenshot takesScreenshot=(TakesScreenshot)BaseDemoWebPage.getWebDriver();
+		String screenshot=takesScreenshot.getScreenshotAs(OutputType.BASE64);
+		return screenshot;
 	}
 
 }

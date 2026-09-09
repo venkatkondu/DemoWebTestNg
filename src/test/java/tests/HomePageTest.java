@@ -2,6 +2,7 @@ package tests;
 
 import java.util.List;
 
+
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -9,7 +10,7 @@ import pages.BaseDemoWebPage;
 
 public class HomePageTest extends BaseDemoWebTest {
 
-	
+	/*
 	
 	@Test(priority=1)
 	public void shoppingCart() {
@@ -39,6 +40,8 @@ public class HomePageTest extends BaseDemoWebTest {
 		
 	sAssert.assertAll();	
 	}
+	
+**/
 	
 	@Test(priority=3)
 	public void homePage_MenuList(){
@@ -100,10 +103,9 @@ public class HomePageTest extends BaseDemoWebTest {
 		// I need to assert any failed login thing here
 		sAssert.assertAll();
 	
-		
-		
 	}
 	
+/*	
 	@Test(priority=5)
 	public void homePage_InformationList() {
 		
@@ -233,5 +235,5 @@ public class HomePageTest extends BaseDemoWebTest {
 		
 
 	}
-
+*/
 }

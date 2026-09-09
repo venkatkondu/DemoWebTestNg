@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 
 import utilities.Utility;
 
+
 public class BaseDemoWebPage {
 	
 	protected static  WebDriver lDriver=null;
@@ -15,7 +16,7 @@ public class BaseDemoWebPage {
 		this.lDriver=rDriver;
 	}
 	
-	// base locattors for all pages
+	// base locators for all pages
 	protected By byLogo=By.xpath("//img[@alt='Tricentis Demo Web Shop']");
 	protected By bySearchStore=By.className(".search-box-text");
 	protected By bySearchBtn=By.xpath("//input[@type='submit']");

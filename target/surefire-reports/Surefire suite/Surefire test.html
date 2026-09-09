@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>19/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 02 21:11:07 IST 2026</td>
+<td>Started on:</td><td>Wed Sep 09 09:28:15 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>299 seconds (299077 ms)</td>
+<tr><td>Total time:</td><td>104 seconds (104434 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,53 +76,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.LoginPageTest.failed_LogIn_Test()'><b>failed_LogIn_Test</b><br>Test class: tests.LoginPageTest<br>Parameters: Test@Two, Password_2</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [35a0809abd7c3a3bd07cfbf707d93313, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55773}, goog:processID: 25732, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55773/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 35a0809abd7c3a3bd07cfbf707d93313
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+<td title='tests.LoginPageTest.failed_LogIn_Test()'><b>failed_LogIn_Test</b><br>Test class: tests.LoginPageTest<br>Parameters: Test@Three.com, Password_3</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:59)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1308491389", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1308491389'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [35a0809abd7c3a3bd07cfbf707d93313, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55773}, goog:processID: 25732, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55773/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 35a0809abd7c3a3bd07cfbf707d93313
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace770669178", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace770669178'><pre>java.lang.AssertionError: The following asserts failed:
+	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -155,56 +119,20 @@ Session ID: 35a0809abd7c3a3bd07cfbf707d93313
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>9</td>
-<td>tests.LoginPageTest@73700b80</td></tr>
+<td>4</td>
+<td>tests.LoginPageTest@10d307f1</td></tr>
 <tr>
-<td title='tests.LoginPageTest.failed_LogIn_Test()'><b>failed_LogIn_Test</b><br>Test class: tests.LoginPageTest<br>Parameters: Test@Four, Password_4</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3f00ef570c7d6bd14480f9a801facc86, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54983}, goog:processID: 24440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54983/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3f00ef570c7d6bd14480f9a801facc86
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+<td title='tests.LoginPageTest.failed_LogIn_Test()'><b>failed_LogIn_Test</b><br>Test class: tests.LoginPageTest<br>Parameters: Test@Two.com, Password_2</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:59)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace958817283", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace958817283'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3f00ef570c7d6bd14480f9a801facc86, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54983}, goog:processID: 24440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54983/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3f00ef570c7d6bd14480f9a801facc86
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1831875736", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1831875736'><pre>java.lang.AssertionError: The following asserts failed:
+	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -237,56 +165,20 @@ Session ID: 3f00ef570c7d6bd14480f9a801facc86
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>8</td>
-<td>tests.LoginPageTest@73700b80</td></tr>
+<td>4</td>
+<td>tests.LoginPageTest@10d307f1</td></tr>
 <tr>
-<td title='tests.LoginPageTest.failed_LogIn_Test()'><b>failed_LogIn_Test</b><br>Test class: tests.LoginPageTest<br>Parameters: Test@One, Password_1</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5194f1f3588339708af6ae142e32fb98, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52995}, goog:processID: 1920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52995/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5194f1f3588339708af6ae142e32fb98
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+<td title='tests.LoginPageTest.failed_LogIn_Test()'><b>failed_LogIn_Test</b><br>Test class: tests.LoginPageTest<br>Parameters: Test@Four.com, Password_4</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:59)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1113783787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1113783787'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5194f1f3588339708af6ae142e32fb98, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52995}, goog:processID: 1920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52995/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5194f1f3588339708af6ae142e32fb98
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1368128912", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1368128912'><pre>java.lang.AssertionError: The following asserts failed:
+	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -319,56 +211,20 @@ Session ID: 5194f1f3588339708af6ae142e32fb98
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>9</td>
-<td>tests.LoginPageTest@73700b80</td></tr>
+<td>4</td>
+<td>tests.LoginPageTest@10d307f1</td></tr>
 <tr>
-<td title='tests.LoginPageTest.failed_LogIn_Test()'><b>failed_LogIn_Test</b><br>Test class: tests.LoginPageTest<br>Parameters: Test@Three, Password_3</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5805fb78a259bfc606044d77488ff9df, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50228}, goog:processID: 3756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50228/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5805fb78a259bfc606044d77488ff9df
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+<td title='tests.LoginPageTest.failed_LogIn_Test()'><b>failed_LogIn_Test</b><br>Test class: tests.LoginPageTest<br>Parameters: Test@One.com, Password_1</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:59)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace424743902", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace424743902'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5805fb78a259bfc606044d77488ff9df, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50228}, goog:processID: 3756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50228/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5805fb78a259bfc606044d77488ff9df
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace284123040", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace284123040'><pre>java.lang.AssertionError: The following asserts failed:
+	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -401,8 +257,8 @@ Session ID: 5805fb78a259bfc606044d77488ff9df
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>9</td>
-<td>tests.LoginPageTest@73700b80</td></tr>
+<td>4</td>
+<td>tests.LoginPageTest@10d307f1</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -413,100 +269,30 @@ Session ID: 5805fb78a259bfc606044d77488ff9df
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.HomePageTest.homePage_InformationList()'><b>homePage_InformationList</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>10</td>
-<td>tests.HomePageTest@3d5c822d</td></tr>
-<tr>
-<td title='tests.IndexPageTest.indexPage_MenuList()'><b>indexPage_MenuList</b><br>Test class: tests.IndexPageTest</td>
-<td></td>
-<td>8</td>
-<td>tests.IndexPageTest@6f46426d</td></tr>
-<tr>
-<td title='tests.IndexPageTest.indexPage_CategoryList()'><b>indexPage_CategoryList</b><br>Test class: tests.IndexPageTest</td>
-<td></td>
-<td>8</td>
-<td>tests.IndexPageTest@6f46426d</td></tr>
-<tr>
-<td title='tests.HomePageTest.wishList()'><b>wishList</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.HomePageTest@3d5c822d</td></tr>
-<tr>
-<td title='tests.IndexPageTest.indexPage_FollowUs_List()'><b>indexPage_FollowUs_List</b><br>Test class: tests.IndexPageTest</td>
-<td></td>
-<td>5</td>
-<td>tests.IndexPageTest@6f46426d</td></tr>
-<tr>
-<td title='tests.HomePageTest.homePage_MyAccountList()'><b>homePage_MyAccountList</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>8</td>
-<td>tests.HomePageTest@3d5c822d</td></tr>
-<tr>
-<td title='tests.LoginPageTest.success_Login_Test()'><b>success_Login_Test</b><br>Test class: tests.LoginPageTest</td>
-<td></td>
-<td>3</td>
-<td>tests.LoginPageTest@73700b80</td></tr>
-<tr>
-<td title='tests.IndexPageTest.indexPage_CustomerServiceList()'><b>indexPage_CustomerServiceList</b><br>Test class: tests.IndexPageTest</td>
-<td></td>
-<td>7</td>
-<td>tests.IndexPageTest@6f46426d</td></tr>
-<tr>
 <td title='tests.IndexPageTest.indexPage_Title()'><b>indexPage_Title</b><br>Test class: tests.IndexPageTest</td>
 <td></td>
 <td>0</td>
-<td>tests.IndexPageTest@6f46426d</td></tr>
-<tr>
-<td title='tests.HomePageTest.headerList()'><b>headerList</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.HomePageTest@3d5c822d</td></tr>
-<tr>
-<td title='tests.HomePageTest.shoppingCart()'><b>shoppingCart</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.HomePageTest@3d5c822d</td></tr>
-<tr>
-<td title='tests.IndexPageTest.indexPage_InformationList()'><b>indexPage_InformationList</b><br>Test class: tests.IndexPageTest</td>
-<td></td>
-<td>6</td>
-<td>tests.IndexPageTest@6f46426d</td></tr>
-<tr>
-<td title='tests.IndexPageTest.indexPage_MyAccountList()'><b>indexPage_MyAccountList</b><br>Test class: tests.IndexPageTest</td>
-<td></td>
-<td>5</td>
-<td>tests.IndexPageTest@6f46426d</td></tr>
-<tr>
-<td title='tests.HomePageTest.homePage_MenuList()'><b>homePage_MenuList</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>12</td>
-<td>tests.HomePageTest@3d5c822d</td></tr>
-<tr>
-<td title='tests.HomePageTest.homePage_CustomerServiceList()'><b>homePage_CustomerServiceList</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>10</td>
-<td>tests.HomePageTest@3d5c822d</td></tr>
-<tr>
-<td title='tests.HomePageTest.homePage_FollowUs_List()'><b>homePage_FollowUs_List</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>8</td>
-<td>tests.HomePageTest@3d5c822d</td></tr>
-<tr>
-<td title='tests.HomePageTest.categoryList()'><b>categoryList</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.HomePageTest@3d5c822d</td></tr>
-<tr>
-<td title='tests.IndexPageTest.indexPage_URL()'><b>indexPage_URL</b><br>Test class: tests.IndexPageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.IndexPageTest@6f46426d</td></tr>
+<td>tests.IndexPageTest@49c7b90e</td></tr>
 <tr>
 <td title='tests.HomePageTest.homePage_CategoryList()'><b>homePage_CategoryList</b><br>Test class: tests.HomePageTest</td>
 <td></td>
 <td>11</td>
-<td>tests.HomePageTest@3d5c822d</td></tr>
+<td>tests.HomePageTest@73700b80</td></tr>
+<tr>
+<td title='tests.HomePageTest.homePage_MenuList()'><b>homePage_MenuList</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>11</td>
+<td>tests.HomePageTest@73700b80</td></tr>
+<tr>
+<td title='tests.LoginPageTest.success_Login_Test()'><b>success_Login_Test</b><br>Test class: tests.LoginPageTest</td>
+<td></td>
+<td>3</td>
+<td>tests.LoginPageTest@10d307f1</td></tr>
+<tr>
+<td title='tests.IndexPageTest.indexPage_URL()'><b>indexPage_URL</b><br>Test class: tests.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.IndexPageTest@49c7b90e</td></tr>
 </table><p>
 </body>
 </html>

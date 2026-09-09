@@ -16,10 +16,10 @@ public class LoginPageTest extends BaseDemoWebTest {
 	public Object[][] getFailedCredentials(){
 		
 		return new Object[][] {
-			{"Test@One","Password_1"},
-			{"Test@Two","Password_2"},
-			{"Test@Three","Password_3"},
-			{"Test@Four","Password_4"},
+			{"Test@One.com","Password_1"},
+			{"Test@Two.com","Password_2"},
+			{"Test@Three.com","Password_3"},
+			{"Test@Four.com","Password_4"},
 		};
 	}
 	

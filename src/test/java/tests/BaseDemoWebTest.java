@@ -12,12 +12,15 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 
+import extentReports.MyListener;
 import pages.BaseDemoWebPage;
 import pages.HomePage;
 import pages.IndexPage;
 import pages.LoginRegiPage;
 
+@Listeners(MyListener.class)
 public class BaseDemoWebTest {
 	
 	protected BaseDemoWebPage baseWebPage=null;

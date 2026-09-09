@@ -1,4 +1,6 @@
 tests\LoginPageTest.class
+extentReports\MyListener.class
 tests\HomePageTest.class
 tests\IndexPageTest.class
 tests\BaseDemoWebTest.class
+extentReports\ExtentReportManager.class

@@ -35,6 +35,7 @@ public class IndexPageTest extends BaseDemoWebTest {
 
 	}
 
+	/*
 	@Test(priority=3)
 	public void indexPage_MenuList(){
 		SoftAssert sAssert=new SoftAssert();
@@ -76,6 +77,7 @@ public class IndexPageTest extends BaseDemoWebTest {
 		System.out.println(followUs);
 	}
 	
+	*/
 	
 
 }

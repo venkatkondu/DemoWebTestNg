@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="300.042" tests="23" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="105.375" tests="9" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\VenkatKondu\eclipse-workspace\DemoWebTestNg\target\test-classes;C:\Users\VenkatKondu\eclipse-workspace\DemoWebTestNg\target\classes;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-java\4.47.0\selenium-java-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-api\4.47.0\selenium-api-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.47.0\selenium-chrome-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.47.0\selenium-chromium-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-json\4.47.0\selenium-json-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.47.0\selenium-manager-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.47.0\selenium-devtools-latest-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.47.0\selenium-devtools-v149-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v150\4.47.0\selenium-devtools-v150-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v151\4.47.0\selenium-devtools-v151-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.47.0\selenium-edge-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.47.0\selenium-firefox-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-http\4.47.0\selenium-http-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.47.0\selenium-ie-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.47.0\selenium-remote-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\VenkatKondu\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\VenkatKondu\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\VenkatKondu\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\VenkatKondu\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-api\1.65.0\opentelemetry-api-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-context\1.65.0\opentelemetry-context-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-common\1.65.0\opentelemetry-common-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.65.0\opentelemetry-exporter-logging-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.65.0\opentelemetry-sdk-common-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.65.0\opentelemetry-sdk-extension-autoconfigure-spi-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.65.0\opentelemetry-sdk-extension-autoconfigure-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.65.0\opentelemetry-sdk-trace-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.65.0\opentelemetry-sdk-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.65.0\opentelemetry-sdk-metrics-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.65.0\opentelemetry-sdk-logs-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\net\bytebuddy\byte-buddy\1.18.11\byte-buddy-1.18.11.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-os\4.47.0\selenium-os-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.47.0\selenium-safari-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-support\4.47.0\selenium-support-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\VenkatKondu\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\VenkatKondu\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\VenkatKondu\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-testng\2.35.4\allure-testng-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-java-commons\2.35.4\allure-java-commons-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-model\2.35.4\allure-model-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-test-filter\2.35.4\allure-test-filter-2.35.4.jar;"/>
+    <property name="java.class.path" value="C:\Users\VenkatKondu\eclipse-workspace\DemoWebTestNg\target\test-classes;C:\Users\VenkatKondu\eclipse-workspace\DemoWebTestNg\target\classes;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-java\4.47.0\selenium-java-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-api\4.47.0\selenium-api-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.47.0\selenium-chrome-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.47.0\selenium-chromium-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-json\4.47.0\selenium-json-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.47.0\selenium-manager-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.47.0\selenium-devtools-latest-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.47.0\selenium-devtools-v149-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v150\4.47.0\selenium-devtools-v150-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v151\4.47.0\selenium-devtools-v151-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.47.0\selenium-edge-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.47.0\selenium-firefox-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-http\4.47.0\selenium-http-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.47.0\selenium-ie-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.47.0\selenium-remote-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\VenkatKondu\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\VenkatKondu\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\VenkatKondu\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\VenkatKondu\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-api\1.65.0\opentelemetry-api-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-context\1.65.0\opentelemetry-context-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-common\1.65.0\opentelemetry-common-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.65.0\opentelemetry-exporter-logging-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.65.0\opentelemetry-sdk-common-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.65.0\opentelemetry-sdk-extension-autoconfigure-spi-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.65.0\opentelemetry-sdk-extension-autoconfigure-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.65.0\opentelemetry-sdk-trace-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.65.0\opentelemetry-sdk-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.65.0\opentelemetry-sdk-metrics-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.65.0\opentelemetry-sdk-logs-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\net\bytebuddy\byte-buddy\1.18.11\byte-buddy-1.18.11.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-os\4.47.0\selenium-os-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.47.0\selenium-safari-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-support\4.47.0\selenium-support-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\VenkatKondu\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\VenkatKondu\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\VenkatKondu\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-testng\2.35.4\allure-testng-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-java-commons\2.35.4\allure-java-commons-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-model\2.35.4\allure-model-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-test-filter\2.35.4\allure-test-filter-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\VenkatKondu\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\VenkatKondu\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\VenkatKondu\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\VenkatKondu\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\VenkatKondu\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="java.vm.vendor" value="Microsoft"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-25.0.4.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\VenkatKondu\AppData\Local\Temp\surefire10318200001926671690\surefirebooter-20260902211106404_3.jar C:\Users\VenkatKondu\AppData\Local\Temp\surefire10318200001926671690 2026-09-02T21-11-05_718-jvmRun1 surefire-20260902211106404_1tmp surefire_0-20260902211106404_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\VenkatKondu\AppData\Local\Temp\surefire11692660588680175196\surefirebooter-20260909092814449_3.jar C:\Users\VenkatKondu\AppData\Local\Temp\surefire11692660588680175196 2026-09-09T09-28-14_326-jvmRun1 surefire-20260909092814449_1tmp surefire_0-20260909092814449_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\VenkatKondu\eclipse-workspace\DemoWebTestNg\target\test-classes;C:\Users\VenkatKondu\eclipse-workspace\DemoWebTestNg\target\classes;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-java\4.47.0\selenium-java-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-api\4.47.0\selenium-api-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.47.0\selenium-chrome-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.47.0\selenium-chromium-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-json\4.47.0\selenium-json-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.47.0\selenium-manager-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.47.0\selenium-devtools-latest-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.47.0\selenium-devtools-v149-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v150\4.47.0\selenium-devtools-v150-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v151\4.47.0\selenium-devtools-v151-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.47.0\selenium-edge-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.47.0\selenium-firefox-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-http\4.47.0\selenium-http-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.47.0\selenium-ie-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.47.0\selenium-remote-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\VenkatKondu\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\VenkatKondu\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\VenkatKondu\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\VenkatKondu\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-api\1.65.0\opentelemetry-api-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-context\1.65.0\opentelemetry-context-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-common\1.65.0\opentelemetry-common-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.65.0\opentelemetry-exporter-logging-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.65.0\opentelemetry-sdk-common-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.65.0\opentelemetry-sdk-extension-autoconfigure-spi-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.65.0\opentelemetry-sdk-extension-autoconfigure-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.65.0\opentelemetry-sdk-trace-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.65.0\opentelemetry-sdk-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.65.0\opentelemetry-sdk-metrics-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.65.0\opentelemetry-sdk-logs-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\net\bytebuddy\byte-buddy\1.18.11\byte-buddy-1.18.11.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-os\4.47.0\selenium-os-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.47.0\selenium-safari-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-support\4.47.0\selenium-support-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\VenkatKondu\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\VenkatKondu\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\VenkatKondu\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-testng\2.35.4\allure-testng-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-java-commons\2.35.4\allure-java-commons-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-model\2.35.4\allure-model-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-test-filter\2.35.4\allure-test-filter-2.35.4.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\VenkatKondu\eclipse-workspace\DemoWebTestNg\target\test-classes;C:\Users\VenkatKondu\eclipse-workspace\DemoWebTestNg\target\classes;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-java\4.47.0\selenium-java-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-api\4.47.0\selenium-api-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.47.0\selenium-chrome-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.47.0\selenium-chromium-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-json\4.47.0\selenium-json-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.47.0\selenium-manager-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.47.0\selenium-devtools-latest-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.47.0\selenium-devtools-v149-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v150\4.47.0\selenium-devtools-v150-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v151\4.47.0\selenium-devtools-v151-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.47.0\selenium-edge-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.47.0\selenium-firefox-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-http\4.47.0\selenium-http-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.47.0\selenium-ie-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.47.0\selenium-remote-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\VenkatKondu\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\VenkatKondu\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\VenkatKondu\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\VenkatKondu\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-api\1.65.0\opentelemetry-api-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-context\1.65.0\opentelemetry-context-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-common\1.65.0\opentelemetry-common-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.65.0\opentelemetry-exporter-logging-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.65.0\opentelemetry-sdk-common-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.65.0\opentelemetry-sdk-extension-autoconfigure-spi-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.65.0\opentelemetry-sdk-extension-autoconfigure-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.65.0\opentelemetry-sdk-trace-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.65.0\opentelemetry-sdk-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.65.0\opentelemetry-sdk-metrics-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.65.0\opentelemetry-sdk-logs-1.65.0.jar;C:\Users\VenkatKondu\.m2\repository\net\bytebuddy\byte-buddy\1.18.11\byte-buddy-1.18.11.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-os\4.47.0\selenium-os-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.47.0\selenium-safari-driver-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\seleniumhq\selenium\selenium-support\4.47.0\selenium-support-4.47.0.jar;C:\Users\VenkatKondu\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\VenkatKondu\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\VenkatKondu\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\VenkatKondu\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-testng\2.35.4\allure-testng-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-java-commons\2.35.4\allure-java-commons-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-model\2.35.4\allure-model-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\io\qameta\allure\allure-test-filter\2.35.4\allure-test-filter-2.35.4.jar;C:\Users\VenkatKondu\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\VenkatKondu\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\VenkatKondu\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\VenkatKondu\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\VenkatKondu\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\VenkatKondu\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\VenkatKondu"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\VenkatKondu\AppData\Local\Temp\surefire10318200001926671690\surefirebooter-20260902211106404_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\VenkatKondu\AppData\Local\Temp\surefire11692660588680175196\surefirebooter-20260909092814449_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.4+7-LTS"/>
@@ -51,7 +51,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-25.0.4.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\VenkatKondu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_Home_Test/bin;C:\Program Files\Microsoft\jdk-25.0.4.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.16\bin;C:\Users\VenkatKondu\AppData\Local\Microsoft\WindowsApps;C:\Users\VenkatKondu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\VenkatKondu\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-25.0.4.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-25.0.4.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.16\bin;C:\Users\VenkatKondu\AppData\Local\Microsoft\WindowsApps;C:\Users\VenkatKondu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\VenkatKondu\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Microsoft"/>
@@ -60,109 +60,50 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="shoppingCart" classname="tests.HomePageTest" time="0.116">
+  <testcase name="homePage_MenuList" classname="tests.HomePageTest" time="11.446">
+    <system-out><![CDATA[[BOOKS, COMPUTERS, ELECTRONICS, APPAREL & SHOES, DIGITAL DOWNLOADS, JEWELRY, GIFT CARDS]
+Title : Demo Web Shop
+URL : https://demowebshop.tricentis.com/
+]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Sep 09, 2026 9:28:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 153, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 153
 ]]></system-err>
   </testcase>
-  <testcase name="wishList" classname="tests.HomePageTest" time="0.008"/>
-  <testcase name="headerList" classname="tests.HomePageTest" time="0.007"/>
-  <testcase name="homePage_MenuList" classname="tests.HomePageTest" time="12.469">
-    <system-out><![CDATA[[BOOKS, COMPUTERS, ELECTRONICS, APPAREL & SHOES, DIGITAL DOWNLOADS, JEWELRY, GIFT CARDS]
-Title : Demo Web Shop
-URL : https://demowebshop.tricentis.com/
-]]></system-out>
-  </testcase>
-  <testcase name="categoryList" classname="tests.HomePageTest" time="0.009"/>
-  <testcase name="homePage_CategoryList" classname="tests.HomePageTest" time="11.13">
+  <testcase name="homePage_CategoryList" classname="tests.HomePageTest" time="11.187">
     <system-out><![CDATA[[Books, Computers, Electronics, Apparel & Shoes, Digital downloads, Jewelry, Gift Cards]
 Title : Demo Web Shop
 URL : https://demowebshop.tricentis.com/
 ]]></system-out>
+    <system-err><![CDATA[Sep 09, 2026 9:28:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 153, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 153
+]]></system-err>
   </testcase>
-  <testcase name="homePage_InformationList" classname="tests.HomePageTest" time="10.168">
-    <system-out><![CDATA[[Sitemap, Shipping & Returns, Privacy Notice, Conditions of Use, About us, Contact us]
-Title : Demo Web Shop
-URL : https://demowebshop.tricentis.com/
-]]></system-out>
-  </testcase>
-  <testcase name="homePage_MyAccountList" classname="tests.HomePageTest" time="8.866">
-    <system-out><![CDATA[[My account, Orders, Addresses, Shopping cart, Wishlist]
-Title : Demo Web Shop
-URL : https://demowebshop.tricentis.com/
-]]></system-out>
-  </testcase>
-  <testcase name="homePage_CustomerServiceList" classname="tests.HomePageTest" time="10.092">
-    <system-out><![CDATA[[Search, News, Blog, Recently viewed products, Compare products list, New products]
-Title : Demo Web Shop
-URL : https://demowebshop.tricentis.com/
-]]></system-out>
-  </testcase>
-  <testcase name="homePage_FollowUs_List" classname="tests.HomePageTest" time="8.931">
-    <system-out><![CDATA[[Facebook, Twitter, RSS, YouTube, Google+]
-Title : Demo Web Shop
-URL : https://demowebshop.tricentis.com/
-]]></system-out>
-  </testcase>
-  <testcase name="indexPage_URL" classname="tests.IndexPageTest" time="0.022">
+  <testcase name="indexPage_URL" classname="tests.IndexPageTest" time="0.015">
     <system-out><![CDATA[URL : https://demowebshop.tricentis.com/
  --------------------------------------
 ]]></system-out>
+    <system-err><![CDATA[Sep 09, 2026 9:28:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 153, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 153
+]]></system-err>
   </testcase>
-  <testcase name="indexPage_Title" classname="tests.IndexPageTest" time="0.016">
+  <testcase name="indexPage_Title" classname="tests.IndexPageTest" time="0.038">
     <system-out><![CDATA[Title : Demo Web Shop
  --------------------------------------
 ]]></system-out>
+    <system-err><![CDATA[Sep 09, 2026 9:28:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 153, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 153
+]]></system-err>
   </testcase>
-  <testcase name="indexPage_MenuList" classname="tests.IndexPageTest" time="8.122">
-    <system-out><![CDATA[[BOOKS, COMPUTERS, ELECTRONICS, APPAREL & SHOES, DIGITAL DOWNLOADS, JEWELRY, GIFT CARDS]
-]]></system-out>
-  </testcase>
-  <testcase name="indexPage_CategoryList" classname="tests.IndexPageTest" time="8.139">
-    <system-out><![CDATA[[Books, Computers, Electronics, Apparel & Shoes, Digital downloads, Jewelry, Gift Cards]
-]]></system-out>
-  </testcase>
-  <testcase name="indexPage_InformationList" classname="tests.IndexPageTest" time="6.996">
-    <system-out><![CDATA[[Sitemap, Shipping & Returns, Privacy Notice, Conditions of Use, About us, Contact us]
-]]></system-out>
-  </testcase>
-  <testcase name="indexPage_MyAccountList" classname="tests.IndexPageTest" time="5.848">
-    <system-out><![CDATA[[My account, Orders, Addresses, Shopping cart, Wishlist]
-]]></system-out>
-  </testcase>
-  <testcase name="indexPage_CustomerServiceList" classname="tests.IndexPageTest" time="7.052">
-    <system-out><![CDATA[[Search, News, Blog, Recently viewed products, Compare products list, New products]
-]]></system-out>
-  </testcase>
-  <testcase name="indexPage_FollowUs_List" classname="tests.IndexPageTest" time="5.866">
-    <system-out><![CDATA[[Facebook, Twitter, RSS, YouTube, Google+]
-]]></system-out>
-  </testcase>
-  <testcase name="failed_LogIn_Test[Test@One, Password_1](1)" classname="tests.LoginPageTest" time="9.255">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}&#10;  (Session info: chrome=151.0.7922.175)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5194f1f3588339708af6ae142e32fb98, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52995}, goog:processID: 1920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52995/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5194f1f3588339708af6ae142e32fb98" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='message-error']//span"}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5194f1f3588339708af6ae142e32fb98, findElement {value=//div[@class='message-error']//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52995}, goog:processID: 1920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52995/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5194f1f3588339708af6ae142e32fb98
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+  <testcase name="failed_LogIn_Test[Test@One.com, Password_1](1)" classname="tests.LoginPageTest" time="4.092">
+    <failure message="The following asserts failed:&#10;	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -196,32 +137,22 @@ Session ID: 5194f1f3588339708af6ae142e32fb98
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[User Login Failed Test 
+Failed Login Error_Label_One : Login was unsuccessful. Please correct the errors and try again.
+Failed Login Error_Label_One : The credentials provided are incorrect
+Title : Demo Web Shop. Login
+URL : https://demowebshop.tricentis.com/login
 ]]></system-out>
+    <system-err><![CDATA[Sep 09, 2026 9:29:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 153, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 153
+]]></system-err>
   </testcase>
-  <testcase name="failed_LogIn_Test[Test@Two, Password_2](2)" classname="tests.LoginPageTest" time="9.211">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}&#10;  (Session info: chrome=151.0.7922.175)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [35a0809abd7c3a3bd07cfbf707d93313, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55773}, goog:processID: 25732, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55773/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 35a0809abd7c3a3bd07cfbf707d93313" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='message-error']//span"}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [35a0809abd7c3a3bd07cfbf707d93313, findElement {value=//div[@class='message-error']//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55773}, goog:processID: 25732, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55773/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 35a0809abd7c3a3bd07cfbf707d93313
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+  <testcase name="failed_LogIn_Test[Test@Two.com, Password_2](2)" classname="tests.LoginPageTest" time="4.465">
+    <failure message="The following asserts failed:&#10;	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -255,32 +186,22 @@ Session ID: 35a0809abd7c3a3bd07cfbf707d93313
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[User Login Failed Test 
+Failed Login Error_Label_One : Login was unsuccessful. Please correct the errors and try again.
+Failed Login Error_Label_One : The credentials provided are incorrect
+Title : Demo Web Shop. Login
+URL : https://demowebshop.tricentis.com/login
 ]]></system-out>
+    <system-err><![CDATA[Sep 09, 2026 9:29:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 153, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 153
+]]></system-err>
   </testcase>
-  <testcase name="failed_LogIn_Test[Test@Three, Password_3](3)" classname="tests.LoginPageTest" time="9.072">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}&#10;  (Session info: chrome=151.0.7922.175)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5805fb78a259bfc606044d77488ff9df, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50228}, goog:processID: 3756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50228/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5805fb78a259bfc606044d77488ff9df" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='message-error']//span"}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5805fb78a259bfc606044d77488ff9df, findElement {value=//div[@class='message-error']//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50228}, goog:processID: 3756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50228/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5805fb78a259bfc606044d77488ff9df
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+  <testcase name="failed_LogIn_Test[Test@Three.com, Password_3](3)" classname="tests.LoginPageTest" time="4.112">
+    <failure message="The following asserts failed:&#10;	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -314,32 +235,22 @@ Session ID: 5805fb78a259bfc606044d77488ff9df
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[User Login Failed Test 
+Failed Login Error_Label_One : Login was unsuccessful. Please correct the errors and try again.
+Failed Login Error_Label_One : The credentials provided are incorrect
+Title : Demo Web Shop. Login
+URL : https://demowebshop.tricentis.com/login
 ]]></system-out>
+    <system-err><![CDATA[Sep 09, 2026 9:29:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 153, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 153
+]]></system-err>
   </testcase>
-  <testcase name="failed_LogIn_Test[Test@Four, Password_4](4)" classname="tests.LoginPageTest" time="8.98">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;message-error&apos;]//span&quot;}&#10;  (Session info: chrome=151.0.7922.175)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3f00ef570c7d6bd14480f9a801facc86, findElement {value=//div[@class=&apos;message-error&apos;]//span, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54983}, goog:processID: 24440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54983/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3f00ef570c7d6bd14480f9a801facc86" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='message-error']//span"}
-  (Session info: chrome=151.0.7922.175)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3f00ef570c7d6bd14480f9a801facc86, findElement {value=//div[@class='message-error']//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.175, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54983}, goog:processID: 24440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54983/devtoo..., se:cdpVersion: 151.0.7922.175, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3f00ef570c7d6bd14480f9a801facc86
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at pages.LoginRegiPage.getLogin_Failed_Error_Label_1(LoginRegiPage.java:54)
-	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:39)
+  <testcase name="failed_LogIn_Test[Test@Four.com, Password_4](4)" classname="tests.LoginPageTest" time="4.45">
+    <failure message="The following asserts failed:&#10;	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	Login Failed Error Label_2 :  expected [No customer account found] but found [The credentials provided are incorrect]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at tests.LoginPageTest.failed_LogIn_Test(LoginPageTest.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -373,13 +284,23 @@ Session ID: 3f00ef570c7d6bd14480f9a801facc86
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[User Login Failed Test 
+Failed Login Error_Label_One : Login was unsuccessful. Please correct the errors and try again.
+Failed Login Error_Label_One : The credentials provided are incorrect
+Title : Demo Web Shop. Login
+URL : https://demowebshop.tricentis.com/login
 ]]></system-out>
+    <system-err><![CDATA[Sep 09, 2026 9:29:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 153, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 153
+]]></system-err>
   </testcase>
-  <testcase name="success_Login_Test" classname="tests.LoginPageTest" time="3.03">
+  <testcase name="success_Login_Test" classname="tests.LoginPageTest" time="3.107">
     <system-out><![CDATA[User Login Success Test 
 Title : Demo Web Shop
 URL : https://demowebshop.tricentis.com/
  ----------------- User Login Success Test ----------------------------------
 ]]></system-out>
+    <system-err><![CDATA[Sep 09, 2026 9:29:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 153, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 153
+]]></system-err>
   </testcase>
 </testsuite>
